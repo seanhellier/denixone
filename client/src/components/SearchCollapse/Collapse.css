@@ -1,0 +1,95 @@
+.Snavbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgba(32, 4, 95, 0.336);
+
+  height: 35px;
+  justify-content: center;
+  align-content: center;
+  /* margin-top: 10px; */
+  /* box-shadow: 5px 2px 5px #000000; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.678);
+  z-index: 100;
+  padding-left: 40px;
+}
+
+NavbarToggler {
+  z-index: 45;
+  background-color: rgb(126, 0, 0);
+  height: 20px;
+  width: 30px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+  position: absolute;
+  left: 20px;
+}
+
+button {
+  background-color: rgb(17, 0, 255);
+}
+
+.fadebtn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    rgba(81, 65, 116, 0.685),
+    rgba(176, 169, 255, 0.664),
+    rgba(149, 132, 190, 0.63),
+    rgba(38, 31, 53, 0.664)
+  );
+  /* background-color: rgba(221, 216, 241, 0.452); */
+  align-content: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+  position: absolute;
+  top: 10px;
+  box-shadow: 4px 7px 9px #000000;
+  border: 1px solid rgba(143, 143, 143, 0.637);
+  border-radius: 12px;
+}
+
+.filterbtn {
+  position: absolute;
+  top: 2px;
+  left: 20px;
+}
+
+.labelz {
+  margin-left: 20px;
+  align-self: center;
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+}
+
+.submitbutton {
+  height: 30px;
+  width: 60px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.nudge {
+  margin-left: 40px;
+  padding-top: 22px;
+}
+
+@media only screen and (max-width: 800px) {
+  .fadebtn {
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10px;
+    margin-top: 10px;
+  }
+
+  .submitbtn {
+    align-items: center;
+    position: absolute;
+    top: 20px;
+  }
+}

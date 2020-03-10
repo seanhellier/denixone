@@ -1,0 +1,49 @@
+.mapmenu {
+  opacity: 0.7;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 65px;
+  height: 350px;
+  /* background-color: rgba(29, 28, 28, 0); */
+  /* background-image: linear-gradient(
+    rgba(81, 65, 116, 0.25),
+    rgba(176, 169, 255, 0.25),
+    rgba(149, 132, 190, 0.25),
+    rgba(38, 31, 53, 0.25)
+  ); */
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  font-weight: lighter;
+  /* transition-timing-function: ease-in-out; */
+  /* transition: width 2s linear 1s; */
+  padding: 5px;
+  letter-spacing: 5px;
+  color: rgba(223, 223, 223, 0.836);
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  align-content: space-around;
+  justify-content: space-evenly;
+  transition-timing-function: ease-in;
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(255, 255, 255, 0); */
+}
+
+.mapmenu:hover {
+  opacity: 1;
+  /* background-image: linear-gradient(
+    rgba(96, 62, 172, 0.1),
+    rgba(176, 169, 255, 0.1),
+    rgba(149, 132, 190, 0.1),
+    rgba(38, 31, 53, 0.1)
+  ); */
+  transition: width 2s linear 1s;
+  height: 350px;
+  color: rgb(231, 231, 231);
+}
+
+.yearanchor {
+  margin-bottom: 30px;
+}

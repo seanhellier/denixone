@@ -1,0 +1,51 @@
+.drops {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgb(46, 35, 82);
+
+  height: 40px;
+  justify-content: stretch;
+  align-items: center;
+
+  box-shadow: 5px 2px 5px #000000;
+  border-bottom: 1px solid rgba(185, 185, 185, 0.678);
+  z-index: 30;
+}
+
+.selex {
+  background-color: rgb(87, 83, 104);
+  height: 25px;
+  width: 150px;
+  color: rgba(255, 255, 255, 0.76);
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  border: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+option {
+  background-color: rgba(19, 2, 46, 0.411);
+}
+.btndiv {
+  align-content: center;
+  justify-items: right;
+}
+
+.btn-sm {
+  background-color: rgba(214, 214, 214, 0.253);
+  height: 25px;
+  width: 80px;
+  color: rgba(255, 255, 255, 0.76);
+  align-content: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 12px;
+  border: 0px;
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.726);
+  text-align: center;
+}

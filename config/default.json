@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://dbUserenough:OnceUponATimeInAmerica@localhost:27017/admin?ssl=true",
+    "jwtSecret": "cu_bootcamp_mysecret"
+}
