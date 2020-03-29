@@ -8,8 +8,8 @@ function Footer() {
         nav class = "fixed-bottom footer navbar-light " >
         <
         a class = "footertext"
-        href = "https://github.com/Koalescere/deniXone" > deniXone was created by: Gavin Martin, Sean Hellier, and Daniel Mayer < /a> <
-        /nav> <
+        href = "https://github.com/Koalescere/deniXone" > deniZone was created by: Gavin Martin, Sean Hellier, and Daniel Mayer < /a> < /
+        nav > <
         /div>
     )
 }
